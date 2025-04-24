@@ -1,6 +1,6 @@
 import React from "react";
-import promoImage from "../assets/bg.webp"; // Your batsman image
-import bgImage from "../assets/bg-5.webp"; // The glowing symbols background
+import promoImage from "../../public/images/bg.webp"; // Your batsman image
+import bgImage from "../../public/images/bg-5.webp"; // The glowing symbols background
 
 const PromoSection = () => {
   return (
@@ -40,7 +40,7 @@ const PromoSection = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start items-center gap-4">
             <img
-              src="/src/assets/whatsapp.svg" // Replace or use icon lib
+              src="/images/whatsapp.svg" // Replace or use icon lib
               alt="WhatsApp"
             />
 

@@ -1,6 +1,6 @@
 import React from "react";
-import heroImage from "../assets/hero.webp"; // Adjust the path if needed
-import backgroundImage from "../assets/background.webp"; // Adjust the path if needed
+import heroImage from "../../public/images/hero.webp"; // Adjust the path if needed
+import backgroundImage from "../../public/images/background.webp"; // Adjust the path if needed
 
 const Hero = () => {
   return (
@@ -26,7 +26,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4">
             <img
-              src="/src/assets/whatsapp.svg" // Replace or use icon lib
+              src="/images/whatsapp.svg" // Replace or use icon lib
               alt="WhatsApp"
             />
 

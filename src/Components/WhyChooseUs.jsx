@@ -1,12 +1,12 @@
 import React from "react";
-import bgImage from "../assets/bg-2.webp"; // Replace with your provided background
-import whatsappIcon from "../assets/whatsapp.svg"; // WhatsApp icon
+import bgImage from "../../public/images/bg-2.webp"; // Replace with your provided background
+import whatsappIcon from "../../public/images/whatsapp.svg"; // WhatsApp icon
 
 // Example icon paths (update as you upload)
-import iconSupport from "../assets/ic1.webp";
-import iconPanels from "../assets/ic2.webp";
-import iconTrusted from "../assets/ic3.webp";
-import iconSecure from "../assets/ic4.webp";
+import iconSupport from "/images/ic1.webp";
+import iconPanels from "/images/ic2.webp";
+import iconTrusted from "/images/ic3.webp";
+import iconSecure from "/images/ic4.webp";
 
 const features = [
   { icon: iconSupport, title: "24/7 CUSTOMER SUPPORT" },

@@ -1,23 +1,23 @@
 import React from "react";
-import bgImage from "../assets/bg-4.webp"; // Replace with your background image path
+import bgImage from "../../public/images/bg-4.webp"; // Replace with your background image path
 
 // Example data structure
 const exchanges = [
-  { name: "Sky Exch", logo: "../src/assets/logo1.webp" },
-  { name: "World777", logo: "../src/assets/logo2.webp" },
-  { name: "Diamond Exch", logo: "../src/assets/logo3.webp" },
-  { name: "Radhe Exch", logo: "../src/assets/logo4.webp" },
-  { name: "SS Exchange", logo: "../src/assets/logo5.webp" },
-  { name: "Lotus Book", logo: "../src/assets/logo6.webp" },
-  { name: "PP Exch 9", logo: "../src/assets/logo7.webp" },
-  { name: "All Panel777", logo: "../src/assets/logo8.webp" },
-  { name: "MagicWin", logo: "../src/assets/logo9.webp" },
-  { name: "Kheloyar", logo: "../src/assets/logo10.webp" },
-  { name: "Lords Exchange", logo: "../src/assets/logo11.webp" },
-  { name: "Play Profits", logo: "../src/assets/logo12.webp" },
-  { name: "Future9", logo: "../src/assets/logo13.webp" },
-  { name: "BetPro Exch", logo: "../src/assets/logo14.webp" },
-  { name: "PP Exchange", logo: "../src/assets/logo15.webp" },
+  { name: "Sky Exch", logo: "/images/logo1.webp" },
+  { name: "World777", logo: "/images/logo2.webp" },
+  { name: "Diamond Exch", logo: "/images/logo3.webp" },
+  { name: "Radhe Exch", logo: "/images/logo4.webp" },
+  { name: "SS Exchange", logo: "/images/logo5.webp" },
+  { name: "Lotus Book", logo: "/images/logo6.webp" },
+  { name: "PP Exch 9", logo: "/images/logo7.webp" },
+  { name: "All Panel777", logo: "/images/logo8.webp" },
+  { name: "MagicWin", logo: "/images/logo9.webp" },
+  { name: "Kheloyar", logo: "/images/logo10.webp" },
+  { name: "Lords Exchange", logo: "/images/logo11.webp" },
+  { name: "Play Profits", logo: "/images/logo12.webp" },
+  { name: "Future9", logo: "/images/logo13.webp" },
+  { name: "BetPro Exch", logo: "/images/logo14.webp" },
+  { name: "PP Exchange", logo: "/images/logo15.webp" },
 ];
 
 const ExchangeGrid = () => {

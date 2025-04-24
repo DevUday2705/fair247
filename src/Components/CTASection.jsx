@@ -1,5 +1,5 @@
 import React from "react";
-import whatsappIcon from "../assets/whatsapp.svg"; // Use the uploaded PNG or replace with an icon lib
+import whatsappIcon from "../../public/images/whatsapp.svg"; // Use the uploaded PNG or replace with an icon lib
 
 const CTASection = () => {
   return (

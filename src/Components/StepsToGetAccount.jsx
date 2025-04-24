@@ -1,11 +1,11 @@
 import React from "react";
-import whatsappIcon from "../assets/whatsapp.svg"; // WhatsApp icon
+import whatsappIcon from "../../public/images/whatsapp.svg"; // WhatsApp icon
 
 // Replace these with your icons (upload and update paths)
-import icon1 from "../assets/step-1.webp";
-import icon2 from "../assets/step-2.webp";
-import icon3 from "../assets/step-3.webp";
-import icon4 from "../assets/step-4.webp";
+import icon1 from "/images/step-1.webp";
+import icon2 from "/images/step-2.webp";
+import icon3 from "/images/step-3.webp";
+import icon4 from "/images/step-4.webp";
 
 const steps = [
   {
