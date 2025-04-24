@@ -1,0 +1,67 @@
+import React from "react";
+import bgImage from "../assets/bg-2.webp"; // Replace with your provided background
+import whatsappIcon from "../assets/whatsapp.svg"; // WhatsApp icon
+
+// Example icon paths (update as you upload)
+import iconSupport from "../assets/ic1.webp";
+import iconPanels from "../assets/ic2.webp";
+import iconTrusted from "../assets/ic3.webp";
+import iconSecure from "../assets/ic4.webp";
+
+const features = [
+  { icon: iconSupport, title: "24/7 CUSTOMER SUPPORT" },
+  { icon: iconPanels, title: "ONLINE MASTER & ADMIN PANELS" },
+  { icon: iconTrusted, title: "100% TRUSTED SERVICE" },
+  { icon: iconSecure, title: "HIGHLY SECURED" },
+];
+
+const WhyChooseUs = () => {
+  return (
+    <section
+      className="relative bg-fixed bg-cover bg-center py-20 text-white"
+      style={{ backgroundImage: `url(${bgImage})` }}
+    >
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/30" />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center justify-between gap-12">
+        {/* Left Side: Title & CTA */}
+        <div className="lg:w-1/2 text-center lg:text-left">
+          <p className="text-sm uppercase text-gray-300 mb-1">Why Choose</p>
+          <h2 className="text-3xl sm:text-4xl font-bold text-yellow-400 mb-6">
+            PLAY PROFITS?
+          </h2>
+
+          <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4 items-center">
+            <img src={whatsappIcon} alt="WhatsApp" />
+
+            <button className="text-yellow-400 font-bold hover:text-white transition duration-300">
+              GET MASTER ID NOW →
+            </button>
+          </div>
+        </div>
+
+        {/* Right Side: Feature Grid */}
+        <div className="lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {features.map((feature, index) => (
+            <div
+              key={index}
+              className="bg-black bg-opacity-80 rounded-md p-5 flex items-start gap-4"
+            >
+              <img
+                src={feature.icon}
+                alt={feature.title}
+                className="w-6 h-6 mt-1"
+              />
+              <p className="font-medium text-sm sm:text-base">
+                {feature.title}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default WhyChooseUs;

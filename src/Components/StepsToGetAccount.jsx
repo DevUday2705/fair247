@@ -1,0 +1,88 @@
+import React from "react";
+import whatsappIcon from "../assets/whatsapp.svg"; // WhatsApp icon
+
+// Replace these with your icons (upload and update paths)
+import icon1 from "../assets/step-1.webp";
+import icon2 from "../assets/step-2.webp";
+import icon3 from "../assets/step-3.webp";
+import icon4 from "../assets/step-4.webp";
+
+const steps = [
+  {
+    icon: icon1,
+    text: (
+      <>
+        Tap <strong>'Whatsapp'</strong> button or <br />
+        <span className="text-yellow-400 font-semibold">Tap Here</span> to start
+        a Whatsapp chat with our team.
+      </>
+    ),
+  },
+  {
+    icon: icon2,
+    text: "Our dedicated team will assist you, answer questions, and guide you through the process.",
+  },
+  {
+    icon: icon3,
+    text: "We’ll work closely with you to understand your specific requirements.",
+  },
+  {
+    icon: icon4,
+    text: "Upon successful deal, we'll swiftly provide you with the requested betting exchange account ID.",
+  },
+];
+
+const StepsToGetAccount = () => {
+  return (
+    <section className="bg-black text-white py-20 px-6">
+      <div className="max-w-7xl mx-auto text-center">
+        <p className="text-sm uppercase text-gray-400 mb-1">
+          Get Master, Agent & Admin Accounts
+        </p>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-12">
+          HOW TO GET YOUR MASTER ACCOUNT?
+        </h2>
+
+        {/* Steps */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mb-12">
+          {steps.map((step, index) => (
+            <div
+              key={index}
+              className="relative flex flex-col items-center text-center"
+            >
+              {/* Step circle */}
+
+              <img
+                src={step.icon}
+                alt={`Step ${index + 1}`}
+                className="w-24 h-24"
+              />
+
+              <p className="text-sm leading-relaxed max-w-[250px]">
+                {step.text}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        {/* CTA buttons */}
+        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+          <a
+            href="https://wa.me/919999999999"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 px-4 rounded-full shadow transition duration-300"
+          >
+            <img src={whatsappIcon} alt="WhatsApp" />
+          </a>
+
+          <button className="text-yellow-400 font-bold hover:text-white transition duration-300">
+            GET MASTER ID NOW →
+          </button>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default StepsToGetAccount;
