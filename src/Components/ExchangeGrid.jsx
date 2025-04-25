@@ -29,23 +29,25 @@ const ExchangeGrid = () => {
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {exchanges.map((exchange, index) => (
-            <div
-              key={index}
-              className="rounded-xl overflow-hidden bg-[#1a1a1a] shadow-md"
-            >
-              {/* Image section - fills width and keeps height consistent */}
-              <div className="h-[150px] w-full">
-                <img
-                  src={exchange.logo}
-                  alt={exchange.name}
-                  className="h-full w-full object-cover"
-                />
+            <a href="https://wa.me/+919702283897" target="_blank">
+              <div
+                key={index}
+                className="rounded-xl overflow-hidden bg-[#1a1a1a] shadow-md"
+              >
+                {/* Image section - fills width and keeps height consistent */}
+                <div className="h-[150px] w-full">
+                  <img
+                    src={exchange.logo}
+                    alt={exchange.name}
+                    className="h-full w-full object-cover"
+                  />
+                </div>
+                {/* Text section */}
+                <div className="bg-[#1a1a1a] text-center py-3">
+                  <p className="text-white font-medium">{exchange.name}</p>
+                </div>
               </div>
-              {/* Text section */}
-              <div className="bg-[#1a1a1a] text-center py-3">
-                <p className="text-white font-medium">{exchange.name}</p>
-              </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>

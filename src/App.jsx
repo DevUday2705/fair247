@@ -6,6 +6,7 @@ import ExchangeGrid from "./Components/ExchangeGrid";
 import Promotion from "./Components/Promotion";
 import WhyChooseUs from "./Components/WhyChooseUs";
 import StepsToGetAccount from "./Components/StepsToGetAccount";
+import ImageSlider from "./Components/Slider";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Hero />
       <CTASection />
       <ExchangeGrid />
+      <ImageSlider />
       <Promotion />
       <WhyChooseUs />
       <StepsToGetAccount />

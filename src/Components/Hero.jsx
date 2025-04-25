@@ -24,7 +24,7 @@ const Hero = () => {
             Your ultimate destination for sports betting, thrilling casino
             games, and non-stop IPL action – all in one place!
           </p>
-          <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4">
+          <div className="flex flex-col items-center sm:flex-row sm:justify-center lg:justify-start gap-4">
             <a
               href="https://wa.me/+919702283897"
               target="_blank"
