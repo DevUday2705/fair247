@@ -38,15 +38,27 @@ const PromoSection = () => {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start items-center gap-4">
-            <img
-              src="/images/whatsapp.svg" // Replace or use icon lib
-              alt="WhatsApp"
-            />
+          <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4">
+            <a
+              href="https://wa.me/+919702283897"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/images/whatsapp.svg" // Replace or use icon lib
+                alt="WhatsApp"
+                className="cursor-pointer"
+              />
+            </a>
 
-            <button className="text-yellow-400 font-bold border-b border-yellow-400 hover:text-white transition duration-300">
-              GET MASTER ID NOW →
-            </button>
+            <a
+              href="https://lotus365bet.co"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-400 font-semibold py-2 px-6 rounded inline-block"
+            >
+              Self DPT & WDL →
+            </a>
           </div>
         </div>
       </div>

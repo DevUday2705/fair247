@@ -10,14 +10,6 @@ const exchanges = [
   { name: "SS Exchange", logo: "/images/logo5.webp" },
   { name: "Lotus Book", logo: "/images/logo6.webp" },
   { name: "PP Exch 9", logo: "/images/logo7.webp" },
-  { name: "All Panel777", logo: "/images/logo8.webp" },
-  { name: "MagicWin", logo: "/images/logo9.webp" },
-  { name: "Kheloyar", logo: "/images/logo10.webp" },
-  { name: "Lords Exchange", logo: "/images/logo11.webp" },
-  { name: "Play Profits", logo: "/images/logo12.webp" },
-  { name: "Future9", logo: "/images/logo13.webp" },
-  { name: "BetPro Exch", logo: "/images/logo14.webp" },
-  { name: "PP Exchange", logo: "/images/logo15.webp" },
 ];
 
 const ExchangeGrid = () => {
@@ -35,7 +27,7 @@ const ExchangeGrid = () => {
           <span className="text-white">PREMIUM SPORTS EXCHANGES</span>
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {exchanges.map((exchange, index) => (
             <div
               key={index}

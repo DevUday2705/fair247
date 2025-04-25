@@ -15,24 +15,36 @@ const Hero = () => {
         {/* Left Side */}
         <div className="lg:w-1/2 w-full mb-12 lg:mb-0 text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-4">
-            Get Master Panel <br />
-            On Top Exchanges <br />
-            At Lowest 10%* Rate
+            Get your sports betting id Casino games and online gaming ipl link
           </h1>
-          <p className="text-xl font-medium mb-2">With As Low As Rs. 10,000</p>
+          <p className="text-xl font-medium mb-2">
+            Easy entry, big rewards – start your game today!
+          </p>
           <p className="text-sm text-gray-300 mb-6">
-            No. 1 Online Platform to start your sports and gaming business. Get
-            your Master, Admin or Agent ID on Top Exchanges.
+            Your ultimate destination for sports betting, thrilling casino
+            games, and non-stop IPL action – all in one place!
           </p>
           <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-4">
-            <img
-              src="/images/whatsapp.svg" // Replace or use icon lib
-              alt="WhatsApp"
-            />
+            <a
+              href="https://wa.me/+919702283897"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="/images/whatsapp.svg" // Replace or use icon lib
+                alt="WhatsApp"
+                className="cursor-pointer"
+              />
+            </a>
 
-            <button className=" text-yellow-400 font-semibold py-2 px-6 rounded">
-              Get Master ID Now {">"}
-            </button>
+            <a
+              href="https://lotus365bet.co"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-yellow-400 font-semibold py-2 px-6 rounded inline-block"
+            >
+              Self DPT & WDL →
+            </a>
           </div>
         </div>
 

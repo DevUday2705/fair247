@@ -66,19 +66,27 @@ const StepsToGetAccount = () => {
         </div>
 
         {/* CTA buttons */}
-        <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-center gap-4 items-center">
           <a
-            href="https://wa.me/919999999999"
+            href="https://wa.me/+919702283897"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-2 px-4 rounded-full shadow transition duration-300"
           >
-            <img src={whatsappIcon} alt="WhatsApp" />
+            <img
+              src="/images/whatsapp.svg" // Replace or use icon lib
+              alt="WhatsApp"
+              className="cursor-pointer"
+            />
           </a>
 
-          <button className="text-yellow-400 font-bold hover:text-white transition duration-300">
-            GET MASTER ID NOW →
-          </button>
+          <a
+            href="https://lotus365bet.co"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-yellow-400 font-semibold py-2 px-6 rounded inline-block"
+          >
+            Self DPT & WDL →
+          </a>
         </div>
       </div>
     </section>
