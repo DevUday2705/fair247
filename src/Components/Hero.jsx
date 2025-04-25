@@ -15,14 +15,14 @@ const Hero = () => {
         {/* Left Side */}
         <div className="lg:w-1/2 w-full mb-12 lg:mb-0 text-center lg:text-left">
           <h1 className="text-4xl sm:text-5xl font-bold leading-tight mb-4">
-            Get your sports betting id Casino games and online gaming ipl link
+            Get your sports betting id Casino games <br />{" "}
+            <span className="text-yellow-400">10% bonus on every refill</span>
           </h1>
-          <p className="text-xl font-medium mb-2">
-            Easy entry, big rewards – start your game today!
-          </p>
+
           <p className="text-sm text-gray-300 mb-6">
-            Your ultimate destination for sports betting, thrilling casino
-            games, and non-stop IPL action – all in one place!
+            Casino games and online gaming ipl link 👇🏻 <br /> Your ultimate
+            destination for sports betting, thrilling casino games, <br /> and
+            non-stop IPL action – all in one place!
           </p>
           <div className="flex flex-col items-center sm:flex-row sm:justify-center lg:justify-start gap-4">
             <a
@@ -45,6 +45,10 @@ const Hero = () => {
             >
               Self DPT & WDL →
             </a>
+          </div>
+          <div className="mt-10">
+            <h1>⭐ 24/7 self deposit withdrawal </h1>
+            <h1 className="mt-2"> ⭐ Instant withdrawal in 5 mint</h1>
           </div>
         </div>
 

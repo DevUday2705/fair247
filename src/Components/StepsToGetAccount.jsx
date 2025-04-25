@@ -78,14 +78,16 @@ const StepsToGetAccount = () => {
               className="cursor-pointer"
             />
           </a>
-
           <a
-            href="https://lotus365bet.co"
+            href="https://t.me/lotus365bet_co"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-yellow-400 font-semibold py-2 px-6 rounded inline-block"
           >
-            Self DPT & WDL →
+            <img
+              src="/images/telegram.png" // Replace or use icon lib
+              alt="WhatsApp"
+              className="cursor-pointer"
+            />
           </a>
         </div>
       </div>
