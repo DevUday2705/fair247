@@ -68,7 +68,7 @@ const StepsToGetAccount = () => {
         {/* CTA buttons */}
         <div className="flex flex-col sm:flex-row sm:justify-center lg:justify-center gap-4 items-center">
           <a
-            href="https://wa.me/+919702283897"
+            href="https://wa.me/+917045565862"
             target="_blank"
             rel="noopener noreferrer"
           >

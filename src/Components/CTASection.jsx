@@ -18,7 +18,7 @@ const CTASection = () => {
 
         <div className="flex flex-col items-center sm:flex-row sm:justify-center lg:justify-start gap-4">
           <a
-            href="https://wa.me/+919702283897"
+            href="https://wa.me/+917045565862"
             target="_blank"
             rel="noopener noreferrer"
           >

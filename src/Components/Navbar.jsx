@@ -15,7 +15,7 @@ const Navbar = () => {
           {/* Button */}
           <div>
             <a
-              href="https://wa.me/+919702283897"
+              href="https://wa.me/+917045565862"
               target="_blank"
               rel="noopener noreferrer"
             >

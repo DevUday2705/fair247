@@ -19,7 +19,7 @@ const ImageSlider = () => {
   return (
     <div className="w-full h-64 md:h-96 overflow-hidden relative">
       {images.map((img, idx) => (
-        <a href="https://wa.me/+919702283897">
+        <a href="https://wa.me/+917045565862">
           <img
             key={idx}
             src={img}
